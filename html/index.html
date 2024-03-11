@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+  <!-- Content -->
+  <div class="container-fluid  d-flex justify-content-center">
+    <div class="login">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="title">Returning Customer</h1>
+          </div>
+          <div class="col-12">
+            <input type="email" class="email form-control" placeholder="Email Address *" required>
+          </div>
+          <div class="col-12 mt-2">
+            <input type="password" class="password form-control" placeholder="Password *" required>
+          </div>
+          <div class="col-12 d-flex justify-content-between mb-3">
+            <div class="left">
+              <input class="form-check-input me-3" type="checkbox" id="check" name="option1" value="something">
+              <label class="form-check-label">Remember me</label>
+            </div>
+            <div class="right">
+              <a href="#FPModal" data-bs-toggle="modal">Forgot Password?</a>
+              <!-- Modal -->
+              <div class="modal fade" tabindex="-1" id="FPModal" role="dialog" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+
+                  <!-- Modal content-->
+                  <div class=" modal-content">
+
+                    <!-- Header -->
+                    <div class="modal-header lh-fixed fs-lg">
+                      <strong class="ms-auto">Forgot Password?</strong>
+                      <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close">
+                        <i class="fa-solid fa-x"></i>
+                      </button>
+                    </div>
+
+                    <!-- Body -->
+                    <div class="modal-body text-center">
+
+                      <!-- Text -->
+                      <p class="mb-7 fs-sm text-gray-500">
+                        Please enter your Email Address. You will receive a link
+                        to create a new password via Email.
+                      </p>
+
+                      <!-- Form -->
+                      <form>
+                        <!-- Email -->
+                        <div class="form-group">
+                          <label class="visually-hidden" for="modalPasswordResetEmail">
+                            Email Address *
+                          </label>
+                          <input class="form-control form-control-sm" id="modalPasswordResetEmail" type="email"
+                            placeholder="Email Address *" required>
+                        </div>
+
+                        <!-- Button -->
+                        <button class="btn btn-sm btn-dark">
+                          Reset Password
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <button class="button">Sign In</button>
+          </div>
+        </div>
+        <div class="row"></div>
+    </div>
+  </div>
+  <script src="../js/bootstrap.bundle.js"></script>
+  <script src="../js/bootstrap.js"></script>
+</body>
+
+</html>
