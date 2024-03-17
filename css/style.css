@@ -69,6 +69,10 @@ a:hover {
     color: #1f1f1f;
 }
 
+.right .modal-content{
+    border-radius: 0;
+}
+
 .right .modal-header {
     padding: 24px 32px;
 }

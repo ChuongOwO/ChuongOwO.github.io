@@ -1,0 +1,128 @@
+body{
+    font-size: 16px;
+    font-family: "Jost";
+}
+
+.py-5{
+    margin-left: 168px;
+    margin-right: 168px;
+}
+
+section{
+    padding-top: 32px;
+    padding-bottom: 96px;
+    margin-left: 168px;
+    margin-right: 168px;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: var(--bs-breadcrumb-divider, ">");
+}
+
+a{
+    text-decoration: none;
+}
+
+.breadcrumb{
+    font-size: 14px;
+}
+
+h3{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 64px;
+    font-family: Jost;
+}
+
+.list-group-item{
+    border-left: none;
+    border-right: none;
+    padding: 20px 0 20px 0;
+    font-size: 1;
+}
+
+.list-group-item.active{
+    background-color: white;
+    color: black;
+    border-color: #e5e5e5;
+}
+
+.list-group-item-action:focus, .list-group-item-action:hover{
+    background-color: white;
+}
+
+.dropend-toggle:after {
+    content: "\e930";
+    font-family: "FontAwesome";
+    border: 0;
+    float: right;
+    font-family: Feather;
+    margin-left: 0.255em;
+}
+
+.list-group-strong .list-group-item.active {
+    font-weight: 500;
+}
+
+div{
+    display: block;
+}
+
+.form-label {
+    margin-bottom: 0.5rem;
+    font-size: 16px;
+    font-family: Jost;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-control-sm{
+    padding: 13px 20px;
+    border-radius: 0;
+}
+
+.form-select-sm {
+    background-position: right 1.25rem center;
+    padding-right: 3.75rem;
+    font-size: 15px;
+    padding: 13px 60px 13px 20px;
+    border-radius: 0;
+}
+
+.col-auto{
+    padding: 0 10px 0 10px;
+}
+
+.col{
+    padding: 0 10px 0 10px;
+}
+
+.g-5, .gx-5 {
+    --bs-gutter-x: 1.25rem;
+}
+
+.form-control:focus{
+    border-color: #1f1f1f;
+    box-shadow: none;
+}
+
+.btn-dark{
+    padding: 14px 28px;
+    border-radius: 0;
+}
+
+.btn-sm {
+    height: calc(3.03125rem + 2px);
+    line-height: 1.40625rem;
+    padding: 13px 24px;
+    border: 1px solid #e5e5e5;
+    border-radius: 0;
+}
+
+.btn-outline-border {
+    background-color: #fff;
+    border-color: #e5e5e5;
+    color: #1f1f1f;
+}
